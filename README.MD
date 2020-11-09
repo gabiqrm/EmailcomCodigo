@@ -8,7 +8,7 @@
 
 ---
 <p align="center">
-   <img src="LayoutFinal.jpg" alt="EmailcomCodigo"/>
+   <img src="LayoutFinal.png" alt="EmailcomCodigo"/>
 </p>
 
 <div align="center">
