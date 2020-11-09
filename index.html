@@ -1,0 +1,191 @@
+<html xmlns="https://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Email com Código</title>
+  <style>
+    #outsideTable {
+      background: #fff;
+      width: 600px;
+    }
+
+    #imgBgHeader {
+      position: relative;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    #internalTable {
+      position: relative;
+      top: -220;
+      z-index: 999;
+      width: 600;
+      margin-bottom: -150px;
+      font-family: sans-serif;
+      border: 1px solid #bdbdbd;
+      box-shadow: 0px 10px 20px #00377057;
+    }
+
+    td {
+      line-height: 0;
+    }
+
+    .btn {
+      margin-top: 15px;
+      text-decoration: none;
+      color: white;
+      background: rgb(0, 132, 255);
+      border-radius: 3px;
+      overflow: hidden;
+      display: inline-block;
+    }
+
+    #cross {
+      background: #3677b0;
+      font-size: 12px;
+      display: inline-block;
+      padding: 25px 15px;
+
+    }
+
+    .btn-text {
+      background: #438ac8;
+      display: inline-block;
+      padding: 25px 15px;
+    }
+
+    body {
+      background: rgb(228, 228, 228);
+    }
+
+    .row {
+      height: 1px;
+      background: rgba(0, 0, 0, 0.055);
+    }
+
+    #topRow {
+      margin-top: -25px;
+      width: 80%;
+      margin-right: 10%;
+      margin-bottom: 20px;
+      margin-left: 10%;
+    }
+
+    #bottomRow {
+      width: 100%;
+      margin-top: 40px;
+    }
+
+    .rodape {
+      padding-bottom: 50px;
+
+    }
+
+    #imgRodape {
+      width: 150px;
+    }
+
+    @media (max-width: 600px) {
+      #outsideTable {
+        width: 100%;
+      }
+
+      #internalTable {
+        width: 90%;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <table id='outsideTable' align="center" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+      <tr>
+        <td>
+          <img id="imgBgHeader" src="bg_header.png" alt="">
+
+          <table id='internalTable' align="center" cellpadding="24" cellspacing="0" border="0" bgcolor="#FFFFFF">
+            <tr>
+              <td align="center">
+                <img src="logo_diamante.png">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p align="center" style="font-size: 24px;   display: block; color: #636363;">
+                  Olá, Sayonara!
+
+                </p>
+                <p align="center" style="font-size: 24px; line-height: 20px; display: block; color: #68a1db;">
+                  <b>CONFIRMAÇÃO DE PEDIDO</b>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div id="topRow" class="row"></div>
+                <p style="font-size: 15px; line-height: 15px;  display: block; color: #000000;">
+                  Obrigada por realizar suas compras conosco, é uma honra para nós ter você como cliente Diamante!
+
+                </p>
+                <p style="font-size: 15px; line-height: 24px;  display: block; color: #000000;">
+                  Vamos correr aqui pra separar seu pedido. Caso algum produto esteja em falta no nosso estoque,
+                  seguiremos
+                  conforme você nos orientou, <b>substituindo pelo mesmo produto de outra marca.</b>
+
+                </p>
+                <p style="font-size: 15px; line-height: 24px; display: block; color: #000000;">
+                  Solicitamos uma pré-autorização ao seu cartão de crédito. Após separação dos produtos confirmaremos o
+                  valor
+                  a ser debitado. Fique tranquilo, você só será cobrado pelos produtos que receber e o valor total da
+                  cobrança
+                  nunca ultrapassará o valor autorizado pelo seu cartão.
+                </p>
+                <div id="bottomRow" class="row"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p align="center" style="font-size: 22px;  line-height: 24px;  display: block; color: #3f3f3f;">
+                  Que tal criar uma <b style="color: #569ed7;">lista de compras</b> com estes produtos para facilitar
+                  suas
+                  próximas compras?
+                </p>
+                <p align="center" style="font-size: 24px; line-height: 24px;  display: block; color: #131212;">
+                  <b>Clique para criar!</b>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <a href="#" class="btn btn-createList">
+                  <span id="cross">&#10010;</span><span class="btn-text"><b>Criar Lista</b></span>
+                </a>
+
+
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="rodape" align="center">
+          <img id="imgRodape" src="logo_diamante_rodape.png" alt="">
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</body>
+
+</html>
