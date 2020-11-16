@@ -42,7 +42,7 @@ $ git clone https://github.com/gabiqrm/EmailcomCodigo.git
 ```bash
 $ cd EmailcomCodigo
 ```
-3. Na pasta raiz, dê duplo clique no arquivo: `index.html` para abrir o site no navegador.
+3. Na pasta raiz, dê duplo clique no arquivo `index.html` para abrir o site no navegador.
 
 ---
 ## 🔐 Licença:
