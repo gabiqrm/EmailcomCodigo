@@ -38,7 +38,7 @@ Site criado a partir de um desafio proposto pela empresa Marlin, cujo o objetivo
 ```bash
 $ git clone https://github.com/gabiqrm/EmailcomCodigo.git
 ```
-2. Acessar a pasta principal do projeto via prompt de comando:
+2. Acessar a pasta principal do projeto via prompt de comando. Ex.:
 ```bash
 $ cd EmailcomCodigo
 ```
